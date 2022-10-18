@@ -34,4 +34,9 @@ def main():
 if (__name__ == '__main__'):
     main()
 
+def __iter__(self):
+     iter(self.expense)
+     self.iter_o = iter(self.overages)
+     return self 
+      
         
