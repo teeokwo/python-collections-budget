@@ -9,7 +9,7 @@ def main():
     if(divided_for_loop != divided_set_comp):
         print('Sets are NOT equal by == test')
     for a,b in zip(divided_for_loop, divided_set_comp):
-         if not (a.issubset(b)):
+         if (not (a.issubset(b) and b.issubset(a))) :
              print('Sets are NOT equal by subset test')
 if __name__ == "__main__":
     main()
